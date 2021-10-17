@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_regular_subservices",
+  "info": {
+    "name": "subservices",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "collection": "service"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "numberStats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.stat"
+    },
+    "whyUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.why-us"
+    },
+    "featuredServices": {
+      "collection": "service"
+    },
+    "featuredBlogs": {
+      "collection": "blogs"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_regular_whyuses",
+  "info": {
+    "name": "whyUs",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "reason": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.reason"
+    }
+  }
+}

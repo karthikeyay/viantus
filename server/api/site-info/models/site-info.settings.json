@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_infos",
+  "info": {
+    "name": "SiteInfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "officeLocations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.office-locations"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.social-links"
+    }
+  }
+}

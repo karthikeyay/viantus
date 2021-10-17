@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_regular_office_locations",
+  "info": {
+    "name": "officeLocations",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

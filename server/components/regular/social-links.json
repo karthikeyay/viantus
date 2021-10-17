@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_regular_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "accountName": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_main_menus",
+  "info": {
+    "name": "menuList",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menuitem"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
